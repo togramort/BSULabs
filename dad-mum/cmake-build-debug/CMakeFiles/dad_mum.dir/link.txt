@@ -1,3 +1,0 @@
-"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\dad_mum.dir/objects.a
-D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\dad_mum.dir/objects.a @CMakeFiles\dad_mum.dir\objects1.rsp
-D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\dad_mum.dir/objects.a -Wl,--no-whole-archive -o dad_mum.exe -Wl,--out-implib,libdad_mum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dad_mum.dir\linklibs.rsp

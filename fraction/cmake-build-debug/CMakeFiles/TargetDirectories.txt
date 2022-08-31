@@ -1,3 +1,0 @@
-/media/togram/D Drive/program etc/projects/fraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/togram/D Drive/program etc/projects/fraction/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/togram/D Drive/program etc/projects/fraction/cmake-build-debug/CMakeFiles/fraction.dir

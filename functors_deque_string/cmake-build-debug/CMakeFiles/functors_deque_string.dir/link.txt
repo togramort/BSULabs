@@ -1,3 +1,0 @@
-"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\functors_deque_string.dir/objects.a
-D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\functors_deque_string.dir/objects.a @CMakeFiles\functors_deque_string.dir\objects1.rsp
-D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\functors_deque_string.dir/objects.a -Wl,--no-whole-archive -o functors_deque_string.exe -Wl,--out-implib,libfunctors_deque_string.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\functors_deque_string.dir\linklibs.rsp

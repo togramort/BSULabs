@@ -1,3 +1,0 @@
-D:/program etc/projects/rtrim2.3.3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/program etc/projects/rtrim2.3.3/cmake-build-debug/CMakeFiles/rtrim2_3_3.dir
-D:/program etc/projects/rtrim2.3.3/cmake-build-debug/CMakeFiles/edit_cache.dir

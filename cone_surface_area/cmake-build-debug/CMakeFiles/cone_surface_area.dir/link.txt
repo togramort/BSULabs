@@ -1,3 +1,0 @@
-"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cone_surface_area.dir/objects.a
-D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\cone_surface_area.dir/objects.a @CMakeFiles\cone_surface_area.dir\objects1.rsp
-D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cone_surface_area.dir/objects.a -Wl,--no-whole-archive -o cone_surface_area.exe -Wl,--out-implib,libcone_surface_area.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cone_surface_area.dir\linklibs.rsp

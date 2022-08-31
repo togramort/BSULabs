@@ -1,3 +1,0 @@
-"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\rtrim2_3_3.dir/objects.a
-D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\rtrim2_3_3.dir/objects.a @CMakeFiles\rtrim2_3_3.dir\objects1.rsp
-D:\prog\mingw\mingw64\bin\g++.exe  -fsanitize=address -g   -Wl,--whole-archive CMakeFiles\rtrim2_3_3.dir/objects.a -Wl,--no-whole-archive  -o rtrim2_3_3.exe -Wl,--out-implib,librtrim2_3_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rtrim2_3_3.dir\linklibs.rsp

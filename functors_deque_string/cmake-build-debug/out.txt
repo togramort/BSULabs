@@ -1,2 +1,0 @@
-line 31 is too big :(
-its size mustn't be more than 100
