@@ -1,0 +1,3 @@
+D:/program etc/projects/file_with_numbers3/cmake-build-debug/CMakeFiles/file_with_numbers3.dir
+D:/program etc/projects/file_with_numbers3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/program etc/projects/file_with_numbers3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

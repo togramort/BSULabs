@@ -1,0 +1,3 @@
+D:/program etc/projects/dfs/cmake-build-debug/CMakeFiles/dfs.dir
+D:/program etc/projects/dfs/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/program etc/projects/dfs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

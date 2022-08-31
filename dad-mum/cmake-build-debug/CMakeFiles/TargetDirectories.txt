@@ -1,0 +1,3 @@
+D:/program etc/projects/dad-mum/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/program etc/projects/dad-mum/cmake-build-debug/CMakeFiles/dad_mum.dir
+D:/program etc/projects/dad-mum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

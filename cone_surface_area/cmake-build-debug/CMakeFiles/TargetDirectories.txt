@@ -1,0 +1,3 @@
+D:/program etc/projects/cone_surface_area/cmake-build-debug/CMakeFiles/cone_surface_area.dir
+D:/program etc/projects/cone_surface_area/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/program etc/projects/cone_surface_area/cmake-build-debug/CMakeFiles/rebuild_cache.dir

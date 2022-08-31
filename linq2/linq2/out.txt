@@ -1,0 +1,2 @@
+max amount of homeless pets of type  is: System.Linq.Enumerable+WhereSelectEnumerableIterator`2[System.Linq.IGrouping`2[System.String,linq.Pets],System.Int32]
+

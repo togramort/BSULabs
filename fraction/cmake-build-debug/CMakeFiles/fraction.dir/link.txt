@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fraction.dir/main.cpp.o CMakeFiles/fraction.dir/Fraction.cpp.o  -o fraction 

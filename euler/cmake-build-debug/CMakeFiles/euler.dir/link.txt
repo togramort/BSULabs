@@ -1,0 +1,3 @@
+"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\euler.dir/objects.a
+D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\euler.dir/objects.a @CMakeFiles\euler.dir\objects1.rsp
+D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\euler.dir/objects.a -Wl,--no-whole-archive -o euler.exe -Wl,--out-implib,libeuler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\euler.dir\linklibs.rsp

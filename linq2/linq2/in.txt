@@ -1,0 +1,11 @@
+,собака,чтоб ты сдох,
+,таракан,,
+Владимир,рыбка,,2
+,dog,pi,3
+,dog,,1
+,cat,pa,3
+,elephant,,2
+,cat,pa,3
+,cat,pa,3
+,cat,pa,
+,elephant,,2

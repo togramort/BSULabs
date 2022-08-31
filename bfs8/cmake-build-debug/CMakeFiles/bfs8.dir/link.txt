@@ -1,0 +1,3 @@
+"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\bfs8.dir/objects.a
+D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\bfs8.dir/objects.a @CMakeFiles\bfs8.dir\objects1.rsp
+D:\prog\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\bfs8.dir/objects.a -Wl,--no-whole-archive  -o bfs8.exe -Wl,--out-implib,libbfs8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bfs8.dir\linklibs.rsp
