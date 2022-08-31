@@ -7,3 +7,7 @@
 *.sln
 
 **/.vs
+
+**/.idea
+**/cmake-build-debug
+CMakeLists.txt
