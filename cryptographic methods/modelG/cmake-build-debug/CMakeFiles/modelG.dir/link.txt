@@ -1,0 +1,3 @@
+"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\modelG.dir/objects.a
+D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\modelG.dir/objects.a @CMakeFiles\modelG.dir\objects1.rsp
+D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\modelG.dir/objects.a -Wl,--no-whole-archive -o modelG.exe -Wl,--out-implib,libmodelG.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\modelG.dir\linklibs.rsp

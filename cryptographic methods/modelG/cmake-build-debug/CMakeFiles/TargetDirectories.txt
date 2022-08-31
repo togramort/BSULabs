@@ -1,0 +1,3 @@
+D:/program etc/projects2/modelG/cmake-build-debug/CMakeFiles/modelG.dir
+D:/program etc/projects2/modelG/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/program etc/projects2/modelG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
