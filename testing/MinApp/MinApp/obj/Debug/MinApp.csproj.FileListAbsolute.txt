@@ -1,0 +1,7 @@
+D:\program etc\projects2\MinApp\MinApp\bin\Debug\MinApp.exe.config
+D:\program etc\projects2\MinApp\MinApp\bin\Debug\MinApp.exe
+D:\program etc\projects2\MinApp\MinApp\bin\Debug\MinApp.pdb
+D:\program etc\projects2\MinApp\MinApp\obj\Debug\MinApp.csprojAssemblyReference.cache
+D:\program etc\projects2\MinApp\MinApp\obj\Debug\MinApp.csproj.CoreCompileInputs.cache
+D:\program etc\projects2\MinApp\MinApp\obj\Debug\MinApp.exe
+D:\program etc\projects2\MinApp\MinApp\obj\Debug\MinApp.pdb
