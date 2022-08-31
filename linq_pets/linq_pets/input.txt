@@ -1,0 +1,4 @@
+﻿,dog,a murrain on you,
+,cockroach,,
+Vlad,fish,,2
+Goshan,dog,luky,3 
