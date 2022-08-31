@@ -1,0 +1,3 @@
+"D:\prog\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cm_lab4.dir/objects.a
+D:\prog\mingw\mingw64\bin\ar.exe cr CMakeFiles\cm_lab4.dir/objects.a @CMakeFiles\cm_lab4.dir\objects1.rsp
+D:\prog\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cm_lab4.dir/objects.a -Wl,--no-whole-archive -o cm_lab4.exe -Wl,--out-implib,libcm_lab4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cm_lab4.dir\linklibs.rsp
