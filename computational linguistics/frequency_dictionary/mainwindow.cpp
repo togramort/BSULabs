@@ -1,10 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "dialog.h"
 #include <iostream>
 #include <fstream>
 #include <map>
 #include <boost/algorithm/string.hpp>
+#include <QDialogButtonBox>
+#include <QFormLayout>
+#include <QInputDialog>
+#include <QMessageBox>
 
 std::map<std::string, int> dict;
 
@@ -13,10 +16,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-//    connect(ui->radioButton,SIGNAL(clicked()), this, SLOT(on_radioButton_clicked()));
-//    connect(ui->radioButton_2,SIGNAL(clicked()), this, SLOT(on_radioButton_2_clicked()));
-
     create_dict();
+
 }
 
 MainWindow::~MainWindow()
@@ -25,14 +26,20 @@ MainWindow::~MainWindow()
 }
 
 bool MainWindow::check_correct(const std::string& word) {
-  if (word.size() > 7) {
     for (auto i : word) {
-      if (i == '.' || i == ')' || i == '(' || i == '/') {
-        return false;
-      }
+        if (i == '.' || i == ')' || i == '(' || i == '/' || i == '"' || i == ',' || i == '!' || i == '?') {
+            return false;
+        }
     }
-  }
   return true;
+}
+
+void save_dictionary() {
+    std::ofstream out;
+    out.open("D:\\program etc\\projects3\\f_dict\\output.txt");
+    for(auto& i : dict) {
+        out << i.first << "\n";
+    }
 }
 
 void MainWindow::create_dict() {
@@ -54,10 +61,8 @@ void MainWindow::create_dict() {
         }
       }
     }
-
-//    for (auto& i : dict) {
-//        ui->listWidget->addItem(QString::fromStdString(i.first) + "    :    " + QString::number(i.second));
-//    }
+    in.close();
+    save_dictionary();
 }
 
 void MainWindow::clear_listWidget() {
@@ -69,14 +74,14 @@ void MainWindow::clear_listWidget() {
 void MainWindow::on_radioButton_clicked() {
     clear_listWidget();
     for (auto& i : dict) {
-        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t:\t" + QString::number(i.second));
+        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t\t:\t" + QString::number(i.second));
     }
 }
 
 void MainWindow::on_radioButton_2_clicked() {
     clear_listWidget();
     for (auto i = dict.rbegin(); i != dict.rend(); ++i) {
-        ui->listWidget->addItem(QString::fromStdString(i->first) + "\t:\t" + QString::number(i->second));
+        ui->listWidget->addItem(QString::fromStdString(i->first) + "\t\t:\t" + QString::number(i->second));
     }
 }
 
@@ -98,7 +103,7 @@ void MainWindow::sort_min_max(std::map<std::string, int>& map) {
     std::sort(vec.begin(), vec.end(), cmp_min_max);
 
     for (auto& i : vec) {
-        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t:\t " + QString::number(i.second));
+        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t\t:\t " + QString::number(i.second));
     }
 }
 
@@ -112,7 +117,7 @@ void MainWindow::sort_max_min(std::map<std::string, int>& map) {
     std::sort(vec.begin(), vec.end(), cmp_max_min);
 
     for (auto& i : vec) {
-        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t:\t" + QString::number(i.second));
+        ui->listWidget->addItem(QString::fromStdString(i.first) + "\t\t:\t" + QString::number(i.second));
     }
 }
 
@@ -131,7 +136,7 @@ void MainWindow::on_lineEdit_editingFinished() {
     clear_listWidget();
     for (auto& i : dict) {
         if (i.first.find((ui->lineEdit->text()).toStdString()) != std::string::npos && i.first.find((ui->lineEdit->text()).toStdString()) == 0) {
-         ui->listWidget->addItem(QString::fromStdString(i.first) + "\t:\t" + QString::number(i.second));
+         ui->listWidget->addItem(QString::fromStdString(i.first) + "\t\t:\t" + QString::number(i.second));
         }
       }
     ui->radioButton->setAutoExclusive(false);
@@ -144,14 +149,80 @@ void MainWindow::on_lineEdit_editingFinished() {
     ui->radioButton_4->setChecked(false);
 }
 
-
 void MainWindow::on_pushButton_clicked() {
-    dialog = new Dialog(this);
-    dialog->show();
-    std::string temp = "qwe";
-   // temp = dialog->on_pushButton_clicked_dial();
-    std::cout << "dial show \n";
-    std::cout << temp;
+    std::string temp;
+    QString input = QInputDialog::getText(this, "Add word", "Enter");
+    temp = input.toStdString();
 
+    if (dict.find(temp) != dict.end()) {
+        QMessageBox::critical(this, "nonono", "please notice, this word is already in the dictionary");
+    } else {
+        dict.insert(std::pair<std::string, int>(temp, 1));
+        std::ofstream in;
+        in.open("D:\\program etc\\projects3\\f_dict\\input.txt", std::ios::app);
+        in << "\n" << temp;
+    }
+    save_dictionary();
 }
 
+void MainWindow::on_pushButton_2_clicked() {
+    QDialog dialog(this);
+    // Use a layout allowing to have a label next to each field
+    QFormLayout form(&dialog);
+
+    // Add some text above the fields
+    form.addRow(new QLabel("Editor"));
+
+    // Add the lineEdits with their respective labels
+    QList<QLineEdit *> fields;
+    QLineEdit *lineEdit = new QLineEdit(&dialog);
+    QString label = QString("Word to edit").arg(0);
+    form.addRow(label, lineEdit);
+    fields << lineEdit;
+
+    QLineEdit *lineEdit2 = new QLineEdit(&dialog);
+    QString label2 = QString("New word").arg(0);
+    form.addRow(label2, lineEdit2);
+    fields << lineEdit2;
+
+    // Add some standard buttons (Cancel/Ok) at the bottom of the dialog
+    QDialogButtonBox buttonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel,
+                               Qt::Horizontal, &dialog);
+    form.addRow(&buttonBox);
+    QObject::connect(&buttonBox, SIGNAL(accepted()), &dialog, SLOT(accept()));
+    QObject::connect(&buttonBox, SIGNAL(rejected()), &dialog, SLOT(reject()));
+
+    // Show the dialog as modal
+    if (dialog.exec() == QDialog::Accepted) {
+        // If the user didn't dismiss the dialog, do something with the fields
+        foreach(QLineEdit * lineEdit, fields) {
+            qDebug() << lineEdit->text();
+        }
+    }
+    std::string word_change, new_word;
+    word_change = (lineEdit->text()).toStdString();
+    new_word = (lineEdit2->text()).toStdString();
+    auto it = dict.find(word_change);
+    if (it == dict.end()) {
+         QMessageBox::critical(this, "oopsie!", "please notice, there is no such word in the dictionary");
+    }
+    else if (it != dict.end()) {
+        dict.emplace(new_word, it->second);
+        dict.erase(it);
+    }
+    save_dictionary();
+}
+
+
+void MainWindow::on_pushButton_3_clicked() {
+    std::string temp;
+    QString input = QInputDialog::getText(this, "Delete word", "Enter");
+    temp = input.toStdString();
+    auto it = dict.find(temp);
+    if (it == dict.end()) {
+        QMessageBox::critical(this, "nonono", "please notice, there is no such word in the dictionary");
+    } else if (it != dict.end()) {
+        dict.erase(it);
+    }
+    save_dictionary();
+}
