@@ -1,0 +1,16 @@
+**/Debug
+
+*.vcxproj
+*.filters
+*.user
+
+*.sln
+
+*.iml
+
+**/.vs
+
+**/.idea
+**/out
+**/cmake-build-debug
+CMakeLists.txt
