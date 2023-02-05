@@ -1,0 +1,74 @@
+<Disk
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.bsu.by"
+        xsi:schemaLocation="http://www.bsu.by compositions.xsd">
+
+    <opera>
+        <name>Ruslan and Ludmila</name>
+        <duration>3</duration>
+        <composer>Beethoven</composer>
+        <performers>Beethoven</performers>
+        <textWriter>Pushkin</textWriter>
+    </opera>
+
+    <opera>
+        <name>Duke Igor</name>
+        <duration>3</duration>
+        <composer>Borodin</composer>
+        <performers>Borodin</performers>
+        <textWriter>unknown</textWriter>
+    </opera>
+
+    <romance>
+        <name>Summer time</name>
+        <duration>15</duration>
+        <composer>Blocking</composer>
+        <performers>Bah</performers>
+        <textWriter>Pushkin</textWriter>
+    </romance>
+
+    <romance>
+        <name>Dead inside</name>
+        <duration>11</duration>
+        <composer>Concurrent</composer>
+        <performers>Borodin</performers>
+        <textWriter>unknown</textWriter>
+    </romance>
+
+    <song>
+        <name>Autumn</name>
+        <duration>2</duration>
+        <composer>Bread</composer>
+        <performers>Bulka</performers>
+        <textWriter>Sunshine</textWriter>
+        <genre>pop</genre>
+    </song>
+
+    <song>
+        <name>float</name>
+        <duration>4</duration>
+        <composer>Kudal</composer>
+        <performers>Ludah</performers>
+        <textWriter>Varona</textWriter>
+        <genre>rock</genre>
+    </song>
+
+    <concert>
+        <name>Great concert</name>
+        <duration>100</duration>
+        <composer>Grodenka</composer>
+        <performers>Ludah</performers>
+        <tonality>C dur</tonality>
+        <instrument>rock</instrument>
+    </concert>
+
+    <sonata>
+        <name>Dark side</name>
+        <duration>17</duration>
+        <composer>Malina</composer>
+        <performers>E moll</performers>
+        <tonality>Soroka</tonality>
+    </sonata>
+
+
+</Disk>

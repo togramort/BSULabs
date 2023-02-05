@@ -1,0 +1,4 @@
+2022-12-19 16:18:58,714 (1671455938) INFO - disk_server <init> 43: [start] Server is working!
+2022-12-19 16:19:18,115 (1671455958) INFO - disk_server createDisk 79: Creating disk
+2022-12-19 16:20:31,421 (1671456031) INFO - disk_server recordComposition 105: Recording composition
+2022-12-19 16:20:43,001 (1671456043) INFO - disk_server getDuration 53: Getting duration for diskdisk1

@@ -1,0 +1,845 @@
+[INFO ] 2022-12-16 17:52:04.058 WaitNotifyVersion [main] WaitNotifyVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-16 17:52:04.062 WaitNotifyVersion [main] WaitNotifyVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-16 17:52:04.062 WaitNotifyVersion [main] WaitNotifyVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-16 17:52:04.062 WaitNotifyVersion [main] WaitNotifyVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-16 17:52:04.063 WaitNotifyVersion [main] WaitNotifyVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-16 17:52:04.063 WaitNotifyVersion [main] WaitNotifyVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-16 17:52:04.063 WaitNotifyVersion [main] WaitNotifyVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-16 17:52:04.063 WaitNotifyVersion [main] WaitNotifyVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-16 17:52:08.080 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:08.081 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:52:10.089 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:11.076 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:52:11.077 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:52:14.090 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:52:14.090 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:52:14.091 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:52:14.091 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:52:16.103 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:52:20.108 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:52:20.109 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:52:20.109 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:52:21.092 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:52:21.092 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 17:52:22.124 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:52:24.105 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:52:26.127 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:52:26.130 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:52:28.135 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:52:31.106 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:52:31.109 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:52:32.138 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:34.118 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 17:52:34.118 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:52:34.149 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:38.158 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:52:39.132 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:52:40.162 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:52:41.121 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:44.135 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:44.165 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:52:44.165 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:52:44.165 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:52:46.169 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:52:50.176 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:52:50.177 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:52:50.177 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:52:51.145 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:52:52.187 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:52:54.157 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:52:56.194 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:52:56.195 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:52:58.209 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:01.169 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:53:01.169 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 17:53:02.212 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:04.171 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:53:04.217 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:08.219 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:53:08.220 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:53:10.232 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:53:11.172 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:53:11.172 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 17:53:14.173 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:53:14.236 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:53:14.236 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:53:14.236 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:53:16.244 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:53:20.247 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:20.248 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:53:20.248 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:53:21.184 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:22.252 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:24.185 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:26.258 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:26.258 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:53:26.259 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:53:28.268 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:31.187 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:53:31.188 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:53:32.280 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:53:32.281 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:53:34.190 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:53:34.190 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:53:34.284 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:53:38.299 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:53:39.191 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:53:40.307 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:53:41.198 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:53:41.199 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 17:53:44.208 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:53:44.209 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 17:53:44.318 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:44.319 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:53:44.319 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:53:46.323 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:53:50.331 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:50.331 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:53:50.331 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:53:51.210 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:53:52.335 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:53:54.226 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:53:56.349 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:53:56.349 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:53:56.349 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:53:58.361 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:54:01.230 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:01.230 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:54:02.374 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:02.375 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:54:04.239 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:54:04.239 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:04.382 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:08.386 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:09.246 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:54:10.400 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:11.243 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:54:11.244 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:54:14.255 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:54:14.255 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:54:14.412 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:54:14.412 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:54:14.412 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:54:16.416 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:54:20.432 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:54:20.433 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:54:20.433 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:54:21.264 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:54:22.447 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:54:24.275 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:54:26.463 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:26.463 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:54:26.463 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:54:28.478 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:31.288 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:54:31.288 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:54:32.490 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:32.490 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:54:34.290 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:54:34.492 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:38.506 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:54:40.521 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:54:41.300 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:41.301 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:54:41.301 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:54:44.316 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:44.536 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:54:44.537 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:54:46.537 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:54:50.548 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:50.548 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:54:50.548 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:54:51.317 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:54:51.317 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:54:52.552 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:54:54.328 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:54:56.553 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:54:56.553 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:54:56.553 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:54:58.554 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:01.343 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:55:02.567 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:02.567 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:55:04.355 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:55:04.575 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:08.577 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:55:10.588 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:55:11.367 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:55:11.368 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:55:14.369 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:55:14.601 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:55:14.601 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:55:16.610 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:55:20.625 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:20.626 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:55:20.626 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:55:21.382 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:21.383 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:55:22.626 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:24.395 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:26.630 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:26.630 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:55:28.636 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:31.403 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:55:31.403 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:55:32.637 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:55:34.407 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:55:34.407 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:55:34.641 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:55:38.656 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:55:39.410 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:55:40.664 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:55:41.407 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:55:44.415 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:55:44.664 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:44.665 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:55:44.665 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:55:46.674 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:55:50.686 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:50.687 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:55:50.687 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:55:51.421 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:55:52.689 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:55:54.424 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:55:56.690 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:55:56.691 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:55:58.700 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:56:01.428 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:01.429 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:56:02.714 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:56:04.431 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:56:04.431 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:56:04.444 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:04.728 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:56:08.743 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:09.436 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:56:10.757 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:11.450 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:56:11.450 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:56:14.453 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:56:14.768 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:56:14.768 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:56:14.768 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:56:16.778 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:56:20.789 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:56:20.789 WaitNotifyVersion [Thread-2] WaitNotifyVersion - Passenger John leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:56:20.789 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:56:21.464 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:56:22.798 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:56:24.466 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:56:26.803 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:56:26.803 WaitNotifyVersion [Thread-4] WaitNotifyVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:56:26.803 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:56:28.818 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:56:31.478 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:56:31.478 WaitNotifyVersion [Thread-3] WaitNotifyVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:56:32.820 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:32.820 WaitNotifyVersion [Thread-5] WaitNotifyVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:56:34.485 WaitNotifyVersion [Thread-0] WaitNotifyVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:56:34.826 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:56:38.834 WaitNotifyVersion [Thread-1] WaitNotifyVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:57:06.471 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-16 17:57:06.475 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-16 17:57:06.476 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-16 17:57:06.476 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-16 17:57:06.476 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-16 17:57:06.476 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-16 17:57:06.477 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-16 17:57:06.477 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-16 17:57:10.530 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:10.537 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:57:12.532 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:13.525 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:57:13.526 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:57:16.528 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:57:16.544 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:57:16.544 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:57:16.544 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:57:18.559 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:57:22.563 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:57:22.564 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:57:22.564 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:57:23.534 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:57:23.535 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 17:57:24.571 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:57:26.548 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:57:28.586 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:57:28.586 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:57:30.589 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:57:33.557 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:57:33.558 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:57:34.593 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:36.563 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 17:57:36.563 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:57:36.594 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:40.604 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:57:41.574 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:57:42.612 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:57:43.568 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:46.580 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:46.628 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:57:46.629 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:57:46.629 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:57:48.635 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:57:52.636 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:57:52.637 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:57:52.637 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:57:53.588 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:57:54.648 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:57:56.593 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:57:58.650 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:57:58.651 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:58:00.663 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:03.599 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:58:03.601 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 17:58:04.684 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:06.607 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:58:06.692 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:10.707 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:58:10.707 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:58:12.722 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:58:13.608 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:58:13.608 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 17:58:16.624 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:58:16.731 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:58:16.732 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:58:16.732 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:58:18.747 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:58:22.758 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:22.759 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:58:22.759 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:58:23.631 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:24.765 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:26.637 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:28.780 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:28.783 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:58:28.783 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:58:30.787 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:33.642 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:58:33.643 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:58:34.797 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:58:34.797 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:58:36.649 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:58:36.655 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:58:36.804 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:58:40.817 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:58:41.662 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:58:42.825 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:58:43.667 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:58:43.668 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 17:58:46.679 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:58:46.679 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 17:58:46.835 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:46.836 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:58:46.836 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:58:48.837 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:58:52.839 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:52.840 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:58:52.840 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:58:53.680 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:58:54.853 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:58:56.683 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:58:58.863 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:58:58.863 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:58:58.863 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:59:00.877 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:59:03.690 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:03.691 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:59:04.879 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:04.879 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:59:06.698 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:06.698 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:59:06.887 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:10.888 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:11.712 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 17:59:12.891 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:13.715 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:59:13.715 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 17:59:16.724 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:59:16.723 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:59:16.900 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:59:16.901 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 17:59:16.916 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 17:59:18.906 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:59:22.921 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:59:22.924 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:59:22.925 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 17:59:23.737 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 17:59:24.939 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:59:26.743 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 17:59:28.952 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:28.953 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:59:28.953 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:59:30.956 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:33.754 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 17:59:33.754 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 17:59:34.958 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:34.958 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:59:36.763 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 17:59:36.967 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:40.979 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 17:59:42.994 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 17:59:43.773 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:43.773 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 17:59:43.773 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 17:59:46.788 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:47.008 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 17:59:47.009 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 17:59:49.009 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 17:59:53.011 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:53.011 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 17:59:53.011 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 17:59:53.789 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 17:59:53.789 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 17:59:55.015 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 17:59:56.795 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 17:59:59.029 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 17:59:59.029 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 17:59:59.029 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:00:01.031 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:03.812 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:00:05.040 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:05.040 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:00:06.824 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:00:07.051 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:11.057 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:00:13.063 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:00:13.829 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:00:13.830 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 18:00:16.830 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:00:17.073 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:00:17.073 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:00:19.075 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:00:23.082 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:23.082 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:00:23.082 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:00:23.845 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:23.845 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:00:25.097 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:26.851 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:29.104 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:29.104 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:00:31.111 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:33.860 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:00:33.861 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:00:35.115 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:00:36.876 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:00:37.125 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:00:41.126 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:00:43.133 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:00:43.881 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:00:43.882 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:00:46.896 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:00:47.140 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:47.140 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:00:49.151 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:00:53.162 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:53.165 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:00:53.165 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:00:53.908 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:00:55.177 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:00:56.923 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:00:59.197 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:00:59.198 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:00:59.200 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:01:01.209 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:01:03.936 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:03.936 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 18:01:05.224 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:05.224 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:01:06.941 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:01:06.942 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:07.229 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:11.244 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:11.963 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:01:13.249 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:13.949 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:01:13.950 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:01:16.961 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:01:17.258 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:01:17.258 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:01:17.258 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:01:19.273 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:01:23.284 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:01:23.285 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:01:23.285 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:01:23.987 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:01:23.988 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:01:25.300 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:01:26.999 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:01:29.323 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:29.323 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:01:31.335 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:34.009 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:01:34.009 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 18:01:35.348 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:37.012 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:01:37.359 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:41.374 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:01:43.385 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:01:44.021 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:44.021 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:01:47.030 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:47.390 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:01:47.391 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:01:49.398 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:01:53.412 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:53.412 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:01:53.412 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:01:54.043 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:01:55.421 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:01:57.054 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:01:59.455 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:01:59.456 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:01:59.460 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:02:01.466 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:04.055 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:02:04.055 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 18:02:05.481 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:05.482 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:02:07.062 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:02:07.064 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:02:07.497 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:11.507 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:02:12.070 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:02:13.512 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:02:14.069 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:02:14.069 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 18:02:17.077 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 18:02:17.078 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:02:17.526 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:02:17.526 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:02:17.527 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:02:19.528 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:02:23.575 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:23.576 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:02:23.576 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:02:24.092 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:25.586 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:27.099 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:29.601 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:29.601 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:02:29.601 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:02:31.622 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:34.103 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:02:34.110 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:02:35.645 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:02:35.670 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:02:37.111 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:02:37.111 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 18:02:37.118 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:02:37.666 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:02:41.681 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:02:42.119 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:02:43.685 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:02:44.131 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:02:44.132 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 18:02:44.132 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:02:47.138 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:02:47.694 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:47.694 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:02:49.696 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:02:53.700 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:53.701 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:02:54.139 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:02:54.139 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 18:02:55.705 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:02:57.152 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:02:59.729 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:02:59.730 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:02:59.730 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:03:01.747 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:03:04.157 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:04.157 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 18:03:05.764 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:05.765 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:03:07.163 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:07.769 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:11.786 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:13.800 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:14.172 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:03:14.173 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:03:14.173 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 18:03:17.174 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:03:17.812 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:03:17.812 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:03:19.819 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:03:23.835 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:03:23.835 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:03:23.836 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:03:24.175 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:03:24.175 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:03:25.906 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:03:27.288 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:03:29.951 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:29.952 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:03:29.953 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:03:31.964 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:34.299 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:03:36.004 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:36.007 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:03:37.314 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:03:38.040 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:42.045 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:03:44.055 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:03:44.318 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:44.319 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 18:03:47.333 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:03:47.333 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:03:48.064 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:03:48.064 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:03:50.078 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:03:54.089 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:54.089 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:03:54.089 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:03:54.338 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:03:56.091 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:03:57.345 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:04:00.105 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:00.105 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:04:00.107 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:04:02.120 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:04.347 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:04:04.347 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 18:04:06.128 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:06.129 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:04:07.355 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:04:08.139 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:12.147 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:04:14.166 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:04:14.364 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:04:14.364 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Kiev
+[INFO ] 2022-12-16 18:04:14.364 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Martin
+[INFO ] 2022-12-16 18:04:17.389 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:04:18.176 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:04:18.177 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Minsk and now in train Adler
+[INFO ] 2022-12-16 18:04:20.208 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:04:24.219 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:24.219 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:04:24.219 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-16 18:04:24.390 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:24.390 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:04:26.225 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:27.401 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:30.229 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:30.231 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:04:30.231 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:04:32.238 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:34.402 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:04:36.251 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:04:36.252 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:04:37.415 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:04:38.263 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:04:42.264 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:04:44.268 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:04:44.424 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-16 18:04:44.424 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Martin
+[INFO ] 2022-12-16 18:04:47.425 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-16 18:04:47.425 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-16 18:04:48.274 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:48.274 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:04:50.277 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:04:54.281 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:54.281 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-16 18:04:54.283 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:04:54.436 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-16 18:04:56.296 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-16 18:04:57.448 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-16 18:05:00.302 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-16 18:05:00.302 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-16 18:05:00.302 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Moscow
+[INFO ] 2022-12-16 18:05:02.312 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-16 18:05:04.450 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:05:04.450 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Martin
+[INFO ] 2022-12-16 18:05:06.324 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-16 18:05:06.325 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-16 18:05:07.461 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-16 18:05:07.461 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-16 18:05:08.330 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-16 18:05:12.335 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:05:12.475 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-16 18:05:14.337 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-16 18:05:14.476 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-16 18:05:14.477 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-16 18:05:17.483 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Minsk
+[INFO ] 2022-12-16 18:05:17.484 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-16 18:05:18.353 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-16 18:05:18.353 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Adler
+[INFO ] 2022-12-16 18:05:18.354 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Kiev
+[INFO ] 2022-12-18 02:01:56.641 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-18 02:01:56.652 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-18 02:01:56.652 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-18 02:01:56.653 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-18 02:01:56.654 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-18 02:01:56.655 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-18 02:01:56.656 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-18 02:01:56.657 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-18 02:02:00.730 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 02:02:00.734 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-18 02:02:02.740 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 02:02:03.734 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-18 02:02:03.734 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-18 02:02:06.746 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-18 02:02:06.746 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 02:02:08.748 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-18 02:35:59.221 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-18 02:35:59.226 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-18 02:35:59.226 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-18 02:35:59.227 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-18 02:35:59.227 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-18 02:35:59.228 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-18 02:35:59.229 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-18 02:35:59.229 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-18 02:36:03.249 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 02:36:03.251 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-18 02:36:05.254 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 02:36:06.250 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-18 02:36:06.251 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-18 02:36:09.253 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-18 02:36:09.272 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 02:36:09.273 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-18 02:36:09.273 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-18 03:43:56.446 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-18 03:43:56.458 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-18 03:43:56.458 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-18 03:43:56.460 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-18 03:43:56.460 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-18 03:43:56.461 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-18 03:43:56.461 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-18 03:43:56.461 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-18 03:44:00.557 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 03:44:00.558 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-18 03:44:02.562 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 03:44:03.557 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-18 03:44:03.566 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-18 03:44:06.570 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Minsk
+[INFO ] 2022-12-18 03:44:06.570 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 03:44:06.571 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-18 03:44:06.571 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-18 03:44:06.571 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-18 03:44:08.575 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-18 03:44:12.579 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-18 03:44:12.580 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-18 03:44:12.580 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-18 03:44:13.589 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-18 03:44:14.581 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-18 03:44:16.595 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-18 03:44:18.597 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-18 03:44:18.598 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-18 03:44:18.598 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Adler
+[INFO ] 2022-12-18 03:44:20.602 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-18 03:44:23.601 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-18 03:44:26.617 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-18 16:06:05.262 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-18 16:06:05.275 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-18 16:06:05.276 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-18 16:06:05.276 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-18 16:06:05.277 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-18 16:06:05.277 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-18 16:06:05.278 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-18 16:06:05.279 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-18 16:06:09.292 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:09.293 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-18 16:06:11.306 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:12.304 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-18 16:06:12.305 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-18 16:06:15.306 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-18 16:06:15.308 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 16:06:15.308 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-18 16:06:15.308 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-18 16:06:17.317 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-18 16:06:21.318 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-18 16:06:21.319 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-18 16:06:21.319 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-18 16:06:22.307 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-18 16:06:22.307 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-18 16:06:23.328 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-18 16:06:25.315 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-18 16:06:27.335 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-18 16:06:27.335 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-18 16:06:29.339 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-18 16:06:32.316 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-18 16:06:32.316 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-18 16:06:33.350 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:35.329 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-18 16:06:35.360 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:39.375 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 16:06:41.382 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-18 16:06:42.345 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:42.345 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Martin and now on station Warsaw
+[INFO ] 2022-12-18 16:06:45.351 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:45.384 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-18 16:06:45.384 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Moscow and now in train Adler
+[INFO ] 2022-12-18 16:06:47.385 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-18 16:06:51.393 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-18 16:06:51.394 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Adler and now on station Minsk
+[INFO ] 2022-12-18 16:06:51.394 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Minsk and now in train Adler
+[INFO ] 2022-12-18 16:06:52.365 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-18 16:06:53.409 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-18 16:06:55.379 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-18 16:06:57.412 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:06:57.412 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Warsaw
+[INFO ] 2022-12-18 16:06:57.412 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-18 16:06:59.427 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-18 16:07:02.388 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-18 16:07:03.440 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-18 16:07:05.395 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-18 16:07:05.441 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-19 15:48:54.279 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-19 15:48:54.287 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-19 15:48:54.287 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-19 15:48:54.287 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-19 15:48:54.288 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-19 15:48:54.288 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-19 15:48:54.289 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-19 15:48:54.289 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-19 15:48:58.381 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-19 15:48:58.382 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-19 15:49:00.385 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-19 15:49:01.372 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-19 15:49:01.373 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-19 15:49:04.376 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Minsk
+[INFO ] 2022-12-19 15:49:04.380 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-19 15:49:04.392 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-19 15:49:04.393 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-19 15:49:04.393 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-19 15:49:06.406 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-19 15:49:10.415 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-19 15:49:10.415 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-19 15:49:10.415 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-19 15:49:11.387 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-19 15:49:12.420 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-19 16:12:28.473 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Forward
+[INFO ] 2022-12-19 16:12:28.477 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Forward
+[INFO ] 2022-12-19 16:12:28.477 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Forward
+[INFO ] 2022-12-19 16:12:28.477 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Forward
+[INFO ] 2022-12-19 16:12:28.478 SyncObjectsVersion [main] SyncObjectsVersion - Station Warsaw added to the route Backward
+[INFO ] 2022-12-19 16:12:28.478 SyncObjectsVersion [main] SyncObjectsVersion - Station Kiev added to the route Backward
+[INFO ] 2022-12-19 16:12:28.478 SyncObjectsVersion [main] SyncObjectsVersion - Station Moscow added to the route Backward
+[INFO ] 2022-12-19 16:12:28.478 SyncObjectsVersion [main] SyncObjectsVersion - Station Minsk added to the route Backward
+[INFO ] 2022-12-19 16:12:32.494 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-19 16:12:32.500 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Warsaw and now in train Adler
+[INFO ] 2022-12-19 16:12:34.505 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-19 16:12:35.498 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Minsk station
+[INFO ] 2022-12-19 16:12:35.499 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved station Minsk and now in train Martin
+[INFO ] 2022-12-19 16:12:38.509 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Minsk station
+[INFO ] 2022-12-19 16:12:38.509 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
+[INFO ] 2022-12-19 16:12:38.509 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved train Adler and now on station Kiev
+[INFO ] 2022-12-19 16:12:38.509 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved station Kiev and now in train Adler
+[INFO ] 2022-12-19 16:12:40.520 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Kiev station
+[INFO ] 2022-12-19 16:12:44.524 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Moscow station
+[INFO ] 2022-12-19 16:12:44.525 SyncObjectsVersion [Thread-5] SyncObjectsVersion - Passenger Mallory leaved train Adler and now on station Moscow
+[INFO ] 2022-12-19 16:12:44.525 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved station Moscow and now in train Adler
+[INFO ] 2022-12-19 16:12:45.523 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Moscow station
+[INFO ] 2022-12-19 16:12:45.524 SyncObjectsVersion [Thread-2] SyncObjectsVersion - Passenger John leaved train Martin and now on station Moscow
+[INFO ] 2022-12-19 16:12:46.537 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Moscow station
+[INFO ] 2022-12-19 16:12:48.527 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Moscow station
+[INFO ] 2022-12-19 16:12:50.540 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Minsk station
+[INFO ] 2022-12-19 16:12:50.540 SyncObjectsVersion [Thread-4] SyncObjectsVersion - Passenger Sarah leaved train Adler and now on station Minsk
+[INFO ] 2022-12-19 16:12:52.551 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Minsk station
+[INFO ] 2022-12-19 16:12:55.543 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin arrived at the forward platform of Kiev station
+[INFO ] 2022-12-19 16:12:55.544 SyncObjectsVersion [Thread-3] SyncObjectsVersion - Passenger Sam leaved station Kiev and now in train Martin
+[INFO ] 2022-12-19 16:12:56.555 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Warsaw station
+[INFO ] 2022-12-19 16:12:58.548 SyncObjectsVersion [Thread-0] SyncObjectsVersion - Train Martin left the forward platform of Kiev station
+[INFO ] 2022-12-19 16:12:58.564 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler left the backward platform of Warsaw station
+[INFO ] 2022-12-19 16:13:02.565 SyncObjectsVersion [Thread-1] SyncObjectsVersion - Train Adler arrived at the backward platform of Kiev station
