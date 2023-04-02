@@ -1,0 +1,59 @@
+body{
+    background-color: darkgray;
+    text-align: center;
+}
+
+p{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+button{
+    font-family: verdana;
+    font-size: medium;
+    background-color:dimgray;
+    padding: 12px 20px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+h1{
+    color: purple;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    box-shadow: 3px 3px 5px grey;
+    text-align: center;
+}
+
+input[type=number]{
+    width: 50%;
+    padding: 12px 20px;
+    text-align: center;
+    box-shadow: 3px 3px 5px grey;
+}
+
+input[type=button]{
+    width: 25%;
+    padding: 12px 20px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+input[type=text]:focus{
+    background-color: plum;
+}
+
+label{
+    font-size: 20px;
+    font-family: verdana;
+}
+
+table{
+    font-size: 20px;
+    font-family: verdana;
+    margin-left: auto;
+    margin-right: auto;
+}
