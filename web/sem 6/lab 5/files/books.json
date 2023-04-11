@@ -1,0 +1,32 @@
+[  
+    {
+        "ID": 1, 
+        "name": "Harry Potter", 
+        "author": "J.K.Rowling", 
+        "instances": 3
+    },
+    {
+        "ID": 2, 
+        "name": "Winnie-the-Pooh", 
+        "author": "Alan Alexander Milne", 
+        "instances": 2
+    },
+    {
+        "ID": 3, 
+        "name": "Jeeves and Wooster stories", 
+        "author": "P.G.Wodehouse", 
+        "instances": 5
+    },
+    {
+        "ID": 4, 
+        "name": "Harry Potter and the Philosopher’s Stone", 
+        "author": "J.K.Rowling", 
+        "instances": 10
+    },
+    {
+        "ID": 5, 
+        "name": "Airport", 
+        "author": "Arthur Hailey", 
+        "instances": 2
+    }
+]
