@@ -1,0 +1,10 @@
+<div>
+  <h4>book details</h4>
+  <div *ngIf="book | async as book">
+    <div>name: {{book.name}}</div>
+    <div>author: {{book.author}}</div>
+    <div>instances: {{book.number_of_instances}}</div>
+  </div>
+  <button (click)="goBack()">back</button>
+  <button (click)="delete()">delete</button>
+</div>
