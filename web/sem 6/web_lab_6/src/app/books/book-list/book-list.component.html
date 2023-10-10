@@ -1,8 +1,0 @@
-<div class="container">
-    <h2>book list:</h2>
-    <ul>
-        <li *ngFor="let book of books | async" (click)="onSelect(book)">
-            {{book.name}} - {{book.author}}
-        </li>
-    </ul>
-</div>
